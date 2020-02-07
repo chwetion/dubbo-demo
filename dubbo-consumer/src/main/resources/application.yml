@@ -1,0 +1,10 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: consumer
+  registry:
+    address: zookeeper://10.1.11.46:2181
+  protocol:
+    name: dubbo
+    port: 8889
