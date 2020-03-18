@@ -1,4 +1,4 @@
-# cloud-test-demo
+# dubbo-demo
 
 该项目基于springboot+dubbo编码，应用于基于kubernetes平台的一些测试工作，包含三个子项目`dubbo-api`、`dubbo-consumer`、`dubbo-provider`，且架构如下：
 
