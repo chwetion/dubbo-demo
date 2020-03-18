@@ -4,6 +4,7 @@ dubbo:
   application:
     name: provider
   registry:
+    # please edit zookeeper address in your program.
     address: zookeeper://10.1.11.46:2181?client=curator
   protocol:
     name: dubbo
